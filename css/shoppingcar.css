@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+#main span {
+	margin-left: 50px;
+	font-weight: bold;
+	font-size: 14px；
+}
+#main .op {
+	color: #999;
+}
+#main .dp {
+	color: #F00;
+}
+#main p {
+	margin-top: 15px;
+}
+#main table {
+	width: 980px;
+	height: 160px;
+	border: 0px;
+}
+#main caption {
+	padding:7px;
+	background-image: url("../images/buytitle_bg.gif");
+	background-repeat: no-repeat;
+	text-align: left;
+	padding-left: 60px;
+	margin-top: 15px;
+}
+#main .form p {
+	background-image: url("../images/buytitle_bg.gif");
+	padding: 7px;
+	background-repeat: no-repeat;
+	padding-left: 60px;
+}
+#main .inform {
+	margin-left: 100px;
+	margin-top: 15px;
+	line-height: 32px;
+}
+#main .tj {
+	font-size: 16px;
+	width: 70px;
+	background-image: url("../images/nav_bg.gif");
+	border: 1px solid #CA7B25;
+	border-radius: 5px;
+	margin-left: 100px;
+	margin-top: 20px;
+    outline: none;
+}

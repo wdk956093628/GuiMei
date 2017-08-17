@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+#main {
+	background-image: url("../images/reg_bg.gif");
+	background-repeat: repeat-x;
+}
+#left {
+	width: 478px;
+	padding-left: 70px;
+	padding-top: 60px;
+	float: left;
+	line-height: 40px;
+}
+#left th {
+	text-align: right;
+	font-size: 14px;
+	font-weight: 600;
+	padding-right: 5px;
+}
+#left .tj {
+	font-size: 16px;
+	width: 70px;
+	background-image: url("../images/nav_bg.gif");
+	border: 1px solid #CA7B25;
+	border-radius: 5px;
+	margin-right: 2px;
+	outline: none;
+}
+#left .reset {
+	font-size: 16px;
+	width: 70px;
+	background-image: url("../images/nav_bg.gif");
+	border: 1px solid #CA7B25;
+	border-radius: 5px;
+	margin-top: 30px;
+}
+#right {
+	width: 380px;
+	padding-left: 50px;
+	padding-top: 120px;
+	float: left;
+	font-size: 14px;
+	text-align: center;
+}
+#right p {
+	margin-bottom: 10px;
+	margin-left: -60px;
+}
+#main form{
+	display: inline;
+}
+textarea {
+	resize: none;
+}

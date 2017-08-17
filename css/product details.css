@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+#main{
+}
+#left{
+    width:390px;
+    float: left;
+}
+#left form{
+    display: inline;
+}
+#left .share{
+    margin-right:30px;
+    width: 120px;
+    height: 30px;
+    background-image:url("../images/share.gif");
+    border: 0px;
+}
+#left .collect{
+    width: 120px;
+    height: 30px;
+    background-image: url("../images/favthis.gif");
+    border: 0px;
+}
+#left img{
+    border: 1px solid #999999;
+    margin-top: 15px;
+}
+#right{
+    width: 590px;
+    float: left;
+}
+#right table {
+    width: 360px;
+    height: 350px;
+}
+#right input{
+    width: 170px;
+    height: 40px;
+    outline: none;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    background-image:url("../images/buynow.gif");
+}
+#right .onlinepay{
+    font-size: 14px;
+    border: 1px solid #DDD090;
+    background-color: #FFFFED;
+}
+#right .onlinepay img{
+    float: left;
+}

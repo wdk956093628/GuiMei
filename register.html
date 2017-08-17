@@ -1,0 +1,176 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>reg</title>
+  <link rel="stylesheet" type="text/css" href="css/base.css" />
+  <link rel="stylesheet" type="text/css" href="css/register.css" />
+  <script type="text/javascript" src="js/time.js"></script>
+  <script type="text/javascript">
+
+  </script>
+</head>
+
+<body>
+<div id="header">
+  <div id="subnav">
+    <ul>
+      <li class="pic" id="pic1"></li>
+      <li><a href="shoppingcar.html">购物车</a></li>
+      <li class="pic" id="pic2"></li>
+      <li><a href="help%20center.html">帮助中心</a></li>
+      <li class="pic" id="pic3"></li>
+      <li><a href="product%20details.html">加入收藏</a></li>
+      <li class="pic" id="pic4"></li>
+      <li><a href="index.html">设为首页</a></li>
+      <li>
+        <form name="login" action="login.html" method="post">
+          <input type="submit" name="login" value="登录" />
+        </form>
+      </li>
+      <li>
+        <form name="register" action="register.html" method="post">
+          <input type="submit" name="register" value="注册" />
+        </form>
+      </li>
+    </ul>
+  </div>
+   <div class="time">你好,欢迎访问贵美商城！<span id="welcome_time"></span> </div>
+  <div id="nav">
+    <ul>
+      <li><a href="index.html">首　页</a></li>
+      <li><a href="product%20list.html">家用电器</a></li>
+      <li><a href="product%20list.html">数码相机</a></li>
+      <li><a href="product%20list.html">日用百货</a></li>
+      <li><a href="product%20list.html">书　籍</a></li>
+      <li><a href="help%20center.html">帮助中心</a></li>
+      <li><a href="help%20center.html">免费开店</a></li>
+      <li><a href="help%20center.html">全球咨询</a></li>
+      <form name="search" action="#" method="post">
+        <li>
+          <input class="searchbox" type="text" name="searchtext" value="" />
+        </li>
+        <li>
+          <input class="search" type="submit" name="search" value="" />
+        </li>
+      </form>
+    </ul>
+  </div>
+</div>
+  <div id="main">
+    <div id="left">
+        <table>
+          <tr>
+            <th><label for="name"> 名字:</label></th>
+            <td><input type="text" name="name1" value="" id="name" /></td>
+          </tr>
+          <tr>
+            <th><label for="surname">姓氏:</label></th>
+            <td><input type="text" name="name2" value="" id="surname" /></td>
+          </tr>
+          <tr>
+            <th><label for="loginname">登录名:</label></th>
+            <td><input type="text" name="username" value="" id="loginname" />
+              (可包含a-z、0-9和下划线)</td>
+          </tr>
+          <tr>
+            <th><label for="pwd">密码:</label></th>
+            <td><input type="password" name="psd" value="" id="pwd" />
+              （至少包括6个字符）</td>
+          </tr>
+          <tr>
+            <th><label for="pwd-again">再次输入密码:</label></th>
+            <td><input type="password" name="psd2" value="" id="pwd-again" /></td>
+          </tr>
+          <tr>
+            <th><label for="email">电子邮箱：</label></th>
+            <td><input type="text" name="email" value="" id="email"  />
+              (必须包含@字符) </td>
+          </tr>
+          <tr>
+            <th>性别:</th>
+            <td><input type="radio" name="sex" value="male" />
+              <img src="images/Male.gif" />男
+              <input type="radio" name="sex" value="female" />
+              <img src="images/Female.gif" />女</td>
+          </tr>
+          <tr>
+            <th>头像:</th>
+            <td><input type="file" name="photo" value="选择文件"/>
+          </tr>
+          <tr>
+            <th>爱好:</th>
+            <td><input type="checkbox" name="love1" value="sport" />
+              运动
+              <input type="checkbox" name="love2" value="chat"/>
+              聊天
+              <input type="checkbox" name="love1" value="game"/>
+              玩游戏 </td>
+          </tr>
+          <tr>
+            <th>出生日期： </th>
+            <td><select>
+                <option>1995</option>
+                <option>1996</option>
+                <option>1997</option>
+                <option>1998</option>
+                <option>1999</option>
+              </select>
+              年
+              <select>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+              </select>
+              月
+              <select>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+              </select>
+              日 
+          </tr>
+          <tr>
+            <th></th>
+            <td>
+              <form name="register" action="register%20success.html" method="post">
+              <input class="tj" type="submit" name="new" value="提交" />
+              <form name="register" action="register%20success.html" method="post">
+              <input class="reset" type="reset" name="users" value="重填" /></td>
+          </tr>
+        </table>
+    </div>
+    <div id="right">
+      <p><img src="images/read.gif" />阅读淘宝服务协议</p>
+      <textarea cols="27" rows="10" style="font-size:14px;">欢迎阅读服务条款协议，本协议阐述之条款和条件适用于您使用Taobao.com网站的各种工具和服务。<br />本服务协议双方为淘宝和淘宝网用户，本服务协议具有合同效力。<br />淘宝的权利和义务<br />1.淘宝有义务在现有技术上维护整个网上交易平台的正常运行，并努力提升和改进技术。湖区去芜湖芜湖市带坏uufi回答哈看见你  护法和打开会把吧v附件报价单模块为大家乎此的</textarea>
+    </div>
+  </div>
+  <div id="footer">
+    <div class="siteinfo"> 友情链接： <a href="#">百度|Google|</a> <a href="#">Google|</a> <a href="#">雅虎|</a> <a href="#">淘宝|</a> <a href="#">拍拍||</a> <a href="#">易趣|</a> <a href="#">当当|</a> <a href="#">京东商城|</a> <a href="#">迅雷|</a> <a href="#">新浪|</a> <a href="#">网易|</a> <a href="#">搜狐|</a> <a href="#">猫扑|</a> <a href="#">开心网|</a> <a href="#">新华网|</a> <a href="#">凤凰网|</a> 
+    
+    <hr />
+    COPYRIGHT@2003-2010北京市贵美商城有限公司&nbsp;ALL&nbsp;RIGHT&nbsp;RESERVEVED<br />
+    热线：400-66-13060&nbsp;email:service@prd.com<br />
+    ICP:沪ICP备05021104号<br />
+    <img src="images/img1.gif" />
+    <img src="images/img2.gif" />
+    <img src="images/img3.gif" />
+    <img src="images/img4.gif" />
+    </div>
+  </div>
+</body>
+</html>

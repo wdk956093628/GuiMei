@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	text-decoration:none;
+}
+/*头部样式*/
+#header {
+	width: 1024px;
+	height: 150px;
+	margin: auto;
+	background-image:url(../images/h_bg.jpg);
+}
+/*头部上方导航栏*/
+    #subnav{
+	  float:right;
+	  width:480px;
+	  height:50px;
+	  margin-top:10px;
+	}
+	#subnav ul{
+		list-style-type:none;
+		padding-left:25px;
+	}
+	#subnav ul li{
+		float:left;
+		height:30px;
+		font-size:12px;
+		line-height:30px;
+		margin-right:5px;
+	}
+	.pic{
+		width:30px;
+		height:30px;
+		background-image:url(../images/icon.gif);
+		background-repeat:no-repeat;
+	}
+	#pic2{
+		background-position:-35px 0px;
+	}
+	#pic3{
+		background-position:-80px 2px;
+	}
+	#pic4{
+		background-position:-120px 3px;
+	}
+	#subnav input{
+		font-size:12px;
+		margin-top:5px;
+		background-color:#FFF;
+		border:1px solid #999;
+		border-radius:5px;
+		margin-left:5px;
+		color:#333;
+		outline: none;
+	}
+	#subnav a{
+		color:#333;
+		text-decoration:none；
+	}
+	#subnav a:hover{
+		color:#FF8040;
+		}
+.time{
+    margin-top:10px;
+    font-size:14px;
+    color:#8B8B8B;
+    width:650px;
+    float:right;
+    margin-right:25px;
+}
+	/*头部下方主导航*/
+	#nav{
+	    float:left;
+	    width:1000px;
+		height:30px;
+	    margin-top:13px;
+		
+	}
+	#nav ul{
+		list-style-type:none;
+		margin-left:21px;
+	}
+	#nav ul li{
+		float:left;
+		font-size:14px;
+		width:84px;
+		height:30px;
+		line-height:25px;
+		border:0px solid #0C3;
+		text-align:center;
+		font-weight:bold;
+	}
+	#nav ul li a{
+		color:#333;
+		text-decoration:none;
+		display:block;
+		width:80px;
+		height:30px;
+		}
+	#nav ul li a:hover{
+		background-image:url(../images/nav_bg.gif);
+	}
+	#nav .searchbox{
+		width:155px;
+		height:21px;
+		margin-left:72px;
+		margin-top:2px;
+	}
+	#nav .search{
+		width:64px;
+		height:25px;
+	    margin-left:151px;
+		background-image:url(../images/search.jpg);
+		border:1px solid #D9AE5D;
+		border-radius:5px;
+		margin-top:2px;
+		outline: none;
+	}
+#main{
+	height:667px;
+    width:980px;
+    margin:auto
+}
+/*尾部样式*/
+#footer{
+	font-size:14px;
+	width:960px;
+	margin:auto;
+}
+#footer .siteinfo {
+	text-align: center;
+}
+#footer a {
+	color: #000;
+	text-decoration: none;
+}
+#footer a:hover{
+	color:#D27B4C;
+}
+#footer hr{
+	margin-top:5px;
+    margin-bottom:5px;
+	}

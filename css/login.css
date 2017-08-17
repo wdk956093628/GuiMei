@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+#main {
+	background-image: url("../images/login_bg.gif");
+	background-repeat: repeat-x;
+}
+#left {
+	width: 535px;
+	height: 430px;
+	float: left;
+	border-right: 1px solid #999;
+	margin-top: 40px;
+}
+#right {
+	width: 390px;
+	float: left;
+}
+#left img {
+	margin-left: 20px;
+}
+.lefttop {
+	margin-left: 130px;
+	font-size: 14px;
+	line-height:35px;
+}
+.lefttop input{
+	width: 120px;
+	outline: none;
+}
+#login {
+	width: 78px;
+	height: 31px;
+	border-radius: 5px;
+	margin-left: 60px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	background-image: url("../images/login_mouseover.gif");
+	border: 1px solid #CA7B25;
+}
+ .leftbottom {
+	margin-left: 70px;
+	font-size: 14px;
+	line-height:30px;
+	list-style-image: url("../images/5.png");
+}
+.righttop {
+	margin-top: 20px;
+	margin-left: 40px;
+}
+.righttop li {
+	margin-bottom: 10px;
+	list-style-type: none;
+}
+ .righttop input {
+	width: 158px;
+	height: 34px;
+	margin-left: 60px;
+	background-image: url("../images/registernow.gif");
+	border: 1px solid #E08127;
+	border-radius: 5px;
+	 outline: none;
+}
+.righttop span {
+	color: #2291FF;
+}
+ .rightbottom {
+	height: 80px;
+	width: 300px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: 50px;
+	background-color: #FDF7E7;
+	border: thin solid #F9DFBA;
+}
+ .rightbottom li {
+	margin-bottom: 5px;
+	width: 200px;
+	margin-left: 60px;
+	border: 1px solid #FFAE88;
+	background-color: #FFF;
+	list-style-image: url("../images/6.png");
+}
+#main a{color:#0482FF;}
+

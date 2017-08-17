@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+#main {
+	background-image: url("../images/catlist_bg.gif");
+	background-repeat: repeat-x;
+}
+#main table {
+	width: 980px;
+	height: 600px;
+	
+}
+#main td{text-align:center;
+border-bottom:1px dashed #999;
+}
+
+

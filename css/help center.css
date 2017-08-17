@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+#main{
+
+}
+#left {
+	float: left;
+	height: 500px;
+	width: 180px;
+	border: 1px solid #DA9296;
+	border-radius: 5px;
+	margin-right: 30px;
+	background-image: url("../images/customer.jpg");
+}
+#right {
+	float: left;
+	width: 692px;
+	border: 1px solid #DA9296;
+	height: 500px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+#left ul {
+	margin-top: 200px;
+}
+#left li {
+	list-style-type: none;
+}
+#right li {
+	list-style-type: none;
+}
+#main hr {
+	color: #DA9296;
+	margin-bottom: 20px;
+}
+#main h2 {
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+#main button {
+	background-color: #F8F6D6;
+	border: 1px solid #FFDEA3;
+	border-radius: 5px;
+	height: 35px;
+	color: #910000;
+	font-weight: 600;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	outline: none;
+}
+#main input {
+	background-image: url("../images/help1.png");
+	background-repeat: repeat-x;
+	width: 150px;
+	padding-top: 4px;
+	padding-bottom: 3px;
+	padding-left: 7px;
+	border: thin solid #D27B4C;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	margin-left: 15px;
+	text-align: left;
+	font-weight: bold;
+	outline: none;
+}
+
